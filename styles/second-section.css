@@ -1,0 +1,32 @@
+.second-section {
+    background-color: var(--second-color);
+    padding: 50px 0;
+}
+.second-section .container {
+    padding: 0 50px;
+}
+.second-section-list {
+    display: flex;
+    gap: 88px;
+}
+.second-section-svg {
+    border-radius: 365px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    padding: 15px;
+    margin-bottom: 22px;
+}
+.second-section-list-item {
+    width: 410px;
+}
+.second-section-list-item h2 {
+    color: var(--text-second-color);
+    text-align: left;
+    margin-bottom: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: normal;
+}
+.second-section-list-item p {
+    color: rgba(255, 255, 255, 0.70);
+}
