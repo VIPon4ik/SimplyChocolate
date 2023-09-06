@@ -9,10 +9,9 @@
 }
 
 body {
-    color: rgba(17, 17, 17, 0.70);
+    color: var(--text-color);
     font-family: Montserrat, sans-serif;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.28; /* 128.571% */
     letter-spacing: -0.02em;
@@ -29,6 +28,7 @@ ul, ol {
 
 p {
     margin: 0;
+    color: rgba(17, 17, 17, 0.70);
 }
 
 img {
@@ -48,8 +48,23 @@ h1,h2,h3,h4,h5,h6 {
 h1 {
     color: #FFF;
     font-size: 28px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 34px; /* 121.429% */
-    letter-spacing: -0.84px;
+    line-height: 1.21; /* 121.429% */
+    letter-spacing: -0.03em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17; /* 116.667% */
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+h3 {    
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33; /* 133.333% */
+    text-transform: uppercase;
 }
