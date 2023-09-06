@@ -1,0 +1,64 @@
+.hero-section {
+    margin-bottom: 80px;
+}
+.hero-image {
+    background-image: url('../img//chocolate_main_desk@1x.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    border-radius: 30px;
+    padding: 380px 40px 40px 40px;
+}
+.hero-title {
+    width: 484px;
+    margin-bottom: 32px;
+}
+.hero-section-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.hero-section-list {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+.hero-section-list li a {
+    color: var(--text-second-color);
+    font-weight: 600;
+    line-height: normal;
+
+    border-radius: 100px;
+    border: 1px solid #FFF;
+    padding: 14px 40px;
+}
+.hero-section-list li button {
+    padding: 14px 40px;
+    background-color: var(--accent-color);
+    border-radius: 100px;
+    color: var(--text-second-color);
+    border: 0; 
+
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+}
+.hero-scroll-container {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+.hero-scroll-text {
+    color: var(--text-second-color);
+    font-weight: 500;
+    line-height: 1.28; /* 128.571% */
+    letter-spacing: -0.03em;
+}
+.hero-scroll-container a {
+    background-color: var(--text-second-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+}

@@ -73,6 +73,8 @@ h3 {
 .container {
     margin: 0 auto;
     padding: 0 32px;
+    max-width: 1136px;
+    min-width: 769px;
 }
 
 section {
