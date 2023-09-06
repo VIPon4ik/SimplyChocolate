@@ -1,0 +1,54 @@
+.header {
+    padding: 24px 0;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo-container {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+.header-logo {
+    color: #111;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.11; /* 111.111% */
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+.header-logo span {
+    font-style: italic;
+}
+.logo-svg {
+    margin-left: 4px;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+}
+.navigation-list {
+    display: flex;
+    gap: 24px;
+    margin-left: auto;
+}
+.navigation-list li a {
+
+    font-weight: 500;
+    line-height: 1.14; 
+}
+.header-social-links {
+    display: flex;
+    margin-left: 90px;
+    gap: 14px;
+}
+.header-link {
+    border-radius: 10px;
+    border: 1px solid rgba(17, 17, 17, 0.10);
+    padding: 8px;
+    display: flex;
+
+}
+.header-link-svg {
+}

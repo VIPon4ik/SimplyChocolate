@@ -37,6 +37,7 @@ img {
 }
 
 a {
+    color: currentColor;
     display: block;
     text-decoration: none;
 }
@@ -67,4 +68,13 @@ h3 {
     font-weight: 600;
     line-height: 1.33; /* 133.333% */
     text-transform: uppercase;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+section {
+    margin-bottom: 120px;
 }
